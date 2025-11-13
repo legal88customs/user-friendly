@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>User Friendly — Starter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>User Friendly</h1>
+    <p class="tagline">A small harm-reduction app demo — safe spots, resources, and info.</p>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <p>This is a simple demo you can open in your browser. Use the buttons below to view example spotters and resources.</p>
+      <div class="buttons">
+        <button id="show-spotters">Show Nearby Spotters</button>
+        <button id="show-resources">Show Resources</button>
+      </div>
+    </section>
+
+    <section id="spotters" class="card hidden">
+      <h2>Nearby Spotters</h2>
+      <ul id="spotter-list"></ul>
+      <button id="back-from-spotters">Back</button>
+    </section>
+
+    <section id="resources" class="card hidden">
+      <h2>Resources</h2>
+      <ul id="resource-list"></ul>
+      <button id="back-from-resources">Back</button>
+    </section>
+
+    <section id="education" class="card hidden">
+      <h2>Quick Safety Tips</h2>
+      <ul>
+        <li>Never use alone. If you do, let someone know your location.</li>
+        <li>Carry naloxone if available. It can save a life in an overdose.</li>
+        <li>Start with a small amount if the supply’s unknown.</li>
+      </ul>
+      <button id="back-from-education">Back</button>
+    </section>
+  </main>
+
+  <footer>
+    <small>Demo app — not a replacement for medical advice or emergency services.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
