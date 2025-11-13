@@ -1,6 +1,6 @@
 # User Friendly — Simple Starter
 
-This is a very simple demo you can open with a web browser to get started.
+This is a very simple demo and the core product code for User Friendly. The repository core is proprietary and is intended to remain private. To request licensing, demos, or partnerships, contact legal88customs at legal88customs@gmail.com.
 
 How to open (beginner-friendly):
 1. Download the three files (index.html, styles.css, app.js) into the same folder on your computer.
@@ -14,6 +14,8 @@ How to edit (two easy ways):
 - On GitHub (no installs needed):
   - Open a file in your repository on github.com and click the pencil icon (Edit this file).
   - Make changes, write a short message, and click "Commit changes".
+
+Repository visibility: This repository will be made private to protect the source code. Contact legal88customs at legal88customs@gmail.com to request access or licensing.
 
 Questions or help:
 - If you want, tell me whether you'd like:
